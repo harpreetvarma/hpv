@@ -1,0 +1,20 @@
+git has put some text like this     
+
+change 1
+change 2
+change 3
+change 4      
+<<<< HEAD  // change made in current branch
+change 6
+=======
+change 5
+>>>> master  // change made in source branch
+
+the use of this is that git 
+automatically tells where the
+changes are being made in master & branch
+
+i removed that extra content that git has 
+put in and then i did commit
+
+git commit -a -m 'merge conflict resolved'
